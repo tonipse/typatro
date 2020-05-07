@@ -32,7 +32,6 @@ body {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   background-color: rgba(255, 255, 255, 0.61);
-  margin-bottom: 100px;
   width: 100%;
 }
 
@@ -41,6 +40,7 @@ body {
   padding: 30px;
   font-weight: 500;
   font-size: 16pt;
+  margin: 0;
 }
 
 .who {
@@ -85,7 +85,7 @@ body {
 }
 
 .faq {
-  background-color: white;
+  background-color: #353535;
   -webkit-transform: translateY(-20px);
           transform: translateY(-20px);
 }
@@ -104,6 +104,6 @@ body {
 }
 
 .faq p {
-  color: black;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
