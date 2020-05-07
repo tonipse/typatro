@@ -12,8 +12,6 @@ body {
    background-position: center center;
    background-repeat: no-repeat;
 }
-.hero {
-}
 .hero-header {
    margin-left: 50%;
    transform: translateX(-50%);
@@ -36,5 +34,56 @@ body {
       color: rgb(0, 0, 0);
       padding: 30px;
       font-weight: 500;
+      font-size: 16pt;
+   }
+}
+.who {
+   margin-left: 50%;
+   transform: translateX(-50%);
+   text-align: center;
+   font-size: 40pt;
+
+   p {
+      color: white;
+   }
+   a {
+      text-decoration: none;
+      color: orange;
+   }
+}
+.faq-panel {
+   width: 100%;
+   height: 200px;
+   background-image: url(../img/faq.jpg);
+   background-size: cover;
+   background-position: center center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   p {
+      color: white;
+      font-size: 40pt;
+      font-weight: 500;
+
+      color: rgb(95, 60, 0);
+   }
+}
+.faq {
+   background-color: rgb(255, 255, 255);
+   transform: translateY(-20px);
+
+   .in {
+      padding: 30px;
+   }
+   h3 {
+      color: rgb(255, 162, 0);
+      font-size: 20pt;
+   }
+   h4 {
+      color: rgb(255, 162, 0);
+   }
+   p {
+      color: rgb(0, 0, 0);
    }
 }
