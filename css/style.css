@@ -31,12 +31,12 @@ body {
   margin-left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-color: rgba(255, 255, 255, 0.61);
+  background-color: #353535;
   width: 100%;
 }
 
 .text-container p {
-  color: black;
+  color: white;
   padding: 30px;
   font-weight: 500;
   font-size: 16pt;
@@ -81,7 +81,7 @@ body {
   color: white;
   font-size: 40pt;
   font-weight: 500;
-  color: #5f3c00;
+  color: #ffa200;
 }
 
 .faq {
