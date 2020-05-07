@@ -60,6 +60,10 @@ body {
   color: orange;
 }
 
+.who a:hover {
+  color: #a55b01;
+}
+
 .faq-panel {
   width: 100%;
   height: 200px;
@@ -105,5 +109,99 @@ body {
 
 .faq p {
   color: white;
+}
+
+.index-nav {
+  position: absolute;
+  top: 1400px;
+  right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.index-nav a {
+  color: white;
+  margin-left: 40px;
+  font-size: 25pt;
+  text-decoration: none;
+}
+
+.index-nav a:hover {
+  color: orange;
+}
+
+.contact-body {
+  background-color: #353535;
+}
+
+.contact-body h1 {
+  text-align: center;
+  font-size: 60pt;
+  color: #ffa200;
+}
+
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contact-container .a {
+  color: white;
+}
+
+.contact-container .a h2 {
+  color: #ffa200;
+}
+
+.contactform-container {
+  margin-left: 50%;
+  -webkit-transform: translateX(-25%);
+          transform: translateX(-25%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contactform-container input[type="text"],
+.contactform-container textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+}
+
+.contactform-container input[type="submit"] {
+  background-color: #ffa200;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 19pt;
+  cursor: pointer;
+}
+
+.contactform-container input[type="submit"]:hover {
+  background-color: #8a5404;
 }
 /*# sourceMappingURL=style.css.map */
